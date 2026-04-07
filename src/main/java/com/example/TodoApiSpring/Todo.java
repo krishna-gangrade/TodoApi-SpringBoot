@@ -1,5 +1,7 @@
 package com.example.TodoApiSpring;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class Todo{
 	private int id;
 	private boolean completed;
